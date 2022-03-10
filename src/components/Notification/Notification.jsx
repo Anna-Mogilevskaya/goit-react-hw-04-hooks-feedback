@@ -10,5 +10,5 @@ const Notification = ({ message }) => (
 export default Notification;
 
 Notification.prototypes = {
-  message: PropTypes.number.isRequired,
+  message: PropTypes.number,
 };
